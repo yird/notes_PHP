@@ -2,7 +2,7 @@
 
 Simple Note Taking
 
-<img src="img/z2.png">
+<img src="http://postimg.org/image/iuga26qv7/">
 
 ## Laravel PHP Framework
 
