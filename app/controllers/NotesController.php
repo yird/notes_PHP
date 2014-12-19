@@ -15,13 +15,13 @@ class NotesController extends BaseController {
 
     $notes = Input::get('note');
     DB::table('notes')->insert(['note' => $notes]);
-    return Redirect::to('notes');
+    return Redirect::to('/');
   }
 
   public function getDelete(){
     $delname = Input::get('note');
     $selected = DB::table('notes')->delete();
-    return Redirect::to('notes');
+    return Redirect::to('/');
 
   }
 

@@ -11,4 +11,4 @@
 |
 */
 
-Route::controller('notes','NotesController');
+Route::controller('/','NotesController');

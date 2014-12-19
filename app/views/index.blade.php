@@ -11,10 +11,10 @@
         <h1>Notes <small>by Yird</small></h1>
       </div>
       <div style="text-align:center">
-      <form action="notes/create" method="post"class="navbar-form" >
+      <form action="create" method="post"class="navbar-form" >
           <input type="text" name="note" class="form-control">
           <input type="submit"value="Add"class="btn btn-success">
-          <a class="btn btn-danger" href="notes/delete">Clear</a>
+          <a class="btn btn-danger" href="delete">Clear</a>
       </form>
     </div><br/>
 
